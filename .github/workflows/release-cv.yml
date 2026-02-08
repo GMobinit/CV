@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install RenderCv
-        run: pip install -r requirements
+        run: pip install -r requirements.txt
 
       - name: Build CV
         run: rendercv render -nomd -nohtml -nopng Mobin_Hajiuni_CV.yaml
